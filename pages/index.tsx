@@ -16,22 +16,22 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>John Vandivier</h1>
+        <h1 className={styles.title}>Victor Nestor</h1>
         <p className={styles.description}>A Portfolio</p>
 
         <div className={styles.grid}>
           <a
-            href="https://github.com/Vandivier"
+            href="https://github.com/VNestor"
             className={styles.card}
             rel="noreferrer"
             target="_blank"
           >
             <h2>GitHub</h2>
-            <p>Experience my passion for Open Source!</p>
+            <p>Take a look at what I can do with the technologies I've learned!</p>
           </a>
 
           <a
-            href="https://www.linkedin.com/in/john-vandivier"
+            href="https://www.linkedin.com/in/vnestor"
             className={styles.card}
             rel="noreferrer"
             target="_blank"
@@ -39,29 +39,7 @@ const Home: NextPage = () => {
             <h2>LinkedIn</h2>
             <p>Connect with me professionally and learn about my background.</p>
           </a>
-
-          <a
-            href="https://www.afterecon.com/"
-            className={styles.card}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <h2>Blog</h2>
-            <p>Read my miscellaneous ramblings and learnings!</p>
-          </a>
-
-          <a
-            href="https://vandivier.github.io/vanilla-flat-white/"
-            className={styles.card}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <h2>Vanilla Flat White</h2>
-            <p>
-              An assortment of microprojects in HTML, CSS, and Vanilla
-              JavaScript.
-            </p>
-          </a>
+          
         </div>
       </main>
 

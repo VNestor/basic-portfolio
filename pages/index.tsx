@@ -27,7 +27,7 @@ const Home: NextPage = () => {
             target="_blank"
           >
             <h2>GitHub</h2>
-            <p>Take a look at what I can do with the technologies I've learned!</p>
+            <p>Take a look at what I can do with the technologies I have learned!</p>
           </a>
 
           <a

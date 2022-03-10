@@ -17,7 +17,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Victor Nestor</h1>
-        <p className={styles.description}>A Portfolio</p>
+        <p className={styles.description}>This portfolio was made using Next.js!</p>
 
         <div className={styles.grid}>
           <a
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
             target="_blank"
           >
             <h2>GitHub</h2>
-            <p>Take a look at what I can do with the technologies I have learned!</p>
+            <p>Take a look at what I have made!</p>
           </a>
 
           <a
@@ -38,6 +38,16 @@ const Home: NextPage = () => {
           >
             <h2>LinkedIn</h2>
             <p>Connect with me professionally and learn about my background.</p>
+          </a>
+
+          <a
+            href="https://vnestor.github.io/personal-blog/"
+            className={styles.card}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <h2>Personal Blog</h2>
+            <p>Read about the tools I have worked with and the stuff I have learned!</p>
           </a>
           
         </div>

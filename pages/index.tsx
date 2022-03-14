@@ -49,6 +49,16 @@ const Home: NextPage = () => {
             <h2>Personal Blog</h2>
             <p>Read about the tools I have worked with and the stuff I have learned!</p>
           </a>
+
+          <a
+            href="https://www.fruces.com/"
+            className={styles.card}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <h2>Fruces Juice Bar</h2>
+            <p>Check out the website I made for a small business using React.js!</p>
+          </a>
           
         </div>
       </main>

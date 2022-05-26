@@ -41,16 +41,6 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="https://vnestor.github.io/personal-blog/"
-            className={styles.card}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <h2>Personal Blog</h2>
-            <p>Read about the tools I have worked with and the stuff I have learned!</p>
-          </a>
-
-          <a
             href="https://www.fruces.com/"
             className={styles.card}
             rel="noreferrer"
@@ -58,6 +48,36 @@ const Home: NextPage = () => {
           >
             <h2>Fruces Juice Bar</h2>
             <p>Check out the website I made for a small business using React.js!</p>
+          </a>
+
+          <a
+            href="https://github.com/VNestor/spoofy"
+            className={styles.card}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <h2>Spoofy Music App</h2>
+            <p>Take a look at a simple Spotify clone I made using React.js and Express!</p>
+          </a>
+
+          <a
+            href="https://github.com/VNestor/StudentDatabase"
+            className={styles.card}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <h2>Student Database App</h2>
+            <p>A CRUD desktop application built with Java, Java Swing, SQL, and Derby.</p>
+          </a>
+
+          <a
+            href="https://vnestor.github.io/personal-blog/"
+            className={styles.card}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <h2>Personal Blog</h2>
+            <p>Read about the tools I have worked with and the stuff I have learned!</p>
           </a>
           
         </div>

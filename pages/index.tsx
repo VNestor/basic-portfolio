@@ -67,7 +67,7 @@ const Home: NextPage = () => {
             target="_blank"
           >
             <h2>Student Database App</h2>
-            <p>A CRUD desktop application built with Java, Java Swing, SQL, and Derby.</p>
+            <p>A CRUD desktop application built with Java, Swing, SQL, and Derby.</p>
           </a>
 
           <a

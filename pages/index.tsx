@@ -17,9 +17,18 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Victor Nestor</h1>
-        <p className={styles.description}>This portfolio was made using Next.js!</p>
+        <p className={styles.description}>This portfolio was made using Next.js!<br/> This portfolio is outdated. Please checkout my latest one below.</p>
 
         <div className={styles.grid}>
+        <a
+            href="https://victornestor.com/"
+            className={styles.card} 
+            rel="noreferrer"
+            target="_blank"
+          >
+            <h2>New Portfolio!</h2>
+            <p>Check out my new portfolio I built using React.js! It includes my latest projects and resume.</p>
+          </a>
           <a
             href="https://github.com/VNestor"
             className={styles.card}
